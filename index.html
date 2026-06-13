@@ -77,17 +77,16 @@
         }
 
         .nav-links a:hover { color: var(--accent); }
-
-        .nav-contact-btn {
+        
+        .nav-contact {
             color: var(--accent) !important;
-            font-weight: 700 !important;
             border: 1px solid var(--accent);
             padding: 0.4rem 1rem;
             border-radius: 4px;
-            transition: all 0.3s ease;
+            transition: all 0.3s !important;
         }
-
-        .nav-contact-btn:hover {
+        
+        .nav-contact:hover {
             background: var(--accent);
             color: white !important;
         }
@@ -389,7 +388,7 @@
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact" class="nav-contact-btn">Contact</a></li>
+                <li><a href="#contact" class="nav-contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -398,7 +397,7 @@
         <div class="hero-content">
             <span class="greeting">Hello, I'm</span>
             <h1>Janarthanan K</h1>
-            <p>Electronics & Communication Engineering graduate passionate about building intelligent embedded solutions, with a strong interest in wireless communication, bridging the gap between hardware and firmware.</p>
+            <p>Electronics & Communication Engineering graduate passionate about building intelligent embedded solutions and interested in wireless communication, bridging the gap between hardware and firmware.</p>
             
             <div class="btn-group">
                 <a href="#projects" class="btn btn-primary"><i class="fas fa-project-diagram"></i> View Projects</a>
@@ -555,10 +554,10 @@
                     <div class="project-tags">
                         <span>Arduino Mega</span>
                         <span>PCA9685</span>
-                        <span>LLM & Vision</span>
+                        <span>3D Printing</span>
                     </div>
                     <h3>AI-Driven InMoov Humanoid</h3>
-                    <p>Fabricated an open-source upper body humanoid using FDM 3D printing. Integrated a 5-DOF hand module and a 15-servo expressive head linked to Python serial workflows.</p>
+                    <p>Assisted in the open-source upper body humanoid project using FDM 3D printing. Focused on assembling the finger starter and 3D printing the central stomach and torso chassis, linking components to Python serial workflows.</p>
                 </div>
             </div>
 
@@ -570,7 +569,7 @@
                         <span>L298N</span>
                     </div>
                     <h3>Mobile Rover with Articulated Arm</h3>
-                    <p>Engineered a mobile rover with a custom 6DOF arm. Coordinated multi-servo articulation using specific PCA channels (4-7) and a custom web UI over a wireless local network.</p>
+                    <p>Engineered a mobile rover with a custom 6DOF arm. Coordinated multi-servo articulation utilizing an ESP32 and specific PCA channels (4-7) with a custom web UI over a wireless local network.</p>
                 </div>
             </div>
 
@@ -579,7 +578,7 @@
                     <div class="project-tags">
                         <span>Arduino</span>
                         <span>Ultrasonic</span>
-                        <span>IR LED</span>
+                        <span>OLED UI</span>
                     </div>
                     <h3>Autonomous Guided Vehicle</h3>
                     <p>Designed a high-speed tracking robot with adaptive PID control and obstacle avoidance. Features physical ultrasonic sensor integration alongside dynamic OLED expressive feedback.</p>
