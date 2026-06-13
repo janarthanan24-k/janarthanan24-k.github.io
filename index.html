@@ -65,7 +65,6 @@
             display: flex;
             list-style: none;
             gap: 2rem;
-            align-items: center;
         }
 
         .nav-links a {
@@ -77,19 +76,6 @@
         }
 
         .nav-links a:hover { color: var(--accent); }
-        
-        .nav-contact {
-            color: var(--accent) !important;
-            border: 1px solid var(--accent);
-            padding: 0.4rem 1rem;
-            border-radius: 4px;
-            transition: all 0.3s !important;
-        }
-        
-        .nav-contact:hover {
-            background: var(--accent);
-            color: white !important;
-        }
 
         /* Container & Sections */
         section {
@@ -388,7 +374,7 @@
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact" class="nav-contact">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -397,7 +383,7 @@
         <div class="hero-content">
             <span class="greeting">Hello, I'm</span>
             <h1>Janarthanan K</h1>
-            <p>Electronics & Communication Engineering graduate passionate about building intelligent embedded solutions and interested in wireless communication, bridging the gap between hardware and firmware.</p>
+            <p>Electronics & Communication Engineering graduate passionate about building intelligent embedded solutions, with a strong interest in wireless communication, bridging the gap between hardware and firmware.</p>
             
             <div class="btn-group">
                 <a href="#projects" class="btn btn-primary"><i class="fas fa-project-diagram"></i> View Projects</a>
@@ -554,12 +540,10 @@
                     <div class="project-tags">
                         <span>Arduino Mega</span>
                         <span>PCA9685</span>
-                        <span>3D Printing</span>
+                        <span>LLM & Vision</span>
                     </div>
                     <h3>AI-Driven InMoov Humanoid</h3>
-                    <p>Fabricated an open-source upper body humanoid robot using FDM 3D printing , integrating a tendon-driven
-5-DOF hand module and an expressive 15-servo head module. Developed a control architecture using Arduino Mega and PCA9685 drivers linked with MyRobotLab and Python
-serial modules to execute speech, computer vision, and Large Language Model (LLM) workflows..</p>
+                    <p>Assisted in an open-source upper body humanoid robot using FDM 3D printing, integrating a tendon-driven 5-DOF hand module, an expressive 15-servo head module and Torso & Stomach deployment. Developed a control architecture using Arduino Mega and PCA9685 drivers linked with MyRobotLab and Python serial modules to execute speech, computer vision, and Large Language Model (LLM) workflows.</p>
                 </div>
             </div>
 
@@ -571,7 +555,7 @@ serial modules to execute speech, computer vision, and Large Language Model (LLM
                         <span>L298N</span>
                     </div>
                     <h3>Mobile Rover with Articulated Arm</h3>
-                    <p>Engineered a mobile rover with a custom 6DOF arm. Coordinated multi-servo articulation utilizing an ESP32 and specific PCA channels (4-7) with a custom web UI over a wireless local network.</p>
+                    <p>Engineered a mobile rover with a custom 6DOF arm. Coordinated multi-servo articulation using specific PCA channels (4-7) and a custom web UI over a wireless local network.</p>
                 </div>
             </div>
 
